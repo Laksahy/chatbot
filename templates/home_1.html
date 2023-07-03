@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body style="color:DodgerBlue;">
+   <form action = "{{ url_for('add_product') }}" method = "POST">  
+      <h1> Enter Product Details </h1>
+      <label>Name</label>
+      <input type = "text", id="name", name="name"><br></br>
+      <label> Price</label>
+      <input type = "text", id="price", name="price"><br></br>
+      <p align="center"><input type = "submit" value = "Submit" /></p>
+      </form> 
+</body>
+</html>
